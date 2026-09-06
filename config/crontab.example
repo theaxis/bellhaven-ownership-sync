@@ -1,0 +1,3 @@
+# Run every day at 11:17 in the host's local timezone.
+# Replace /absolute/path/bellhaven-sync with the persistent checkout path.
+17 11 * * * /absolute/path/bellhaven-sync/scripts/run_daily.sh >> /absolute/path/bellhaven-sync/data/daily.log 2>&1
